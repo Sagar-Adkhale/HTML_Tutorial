@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Animation
+        </title>
+        <style>
+           div.circle {
+               
+  width: 20px;
+  height: 20px;
+  background-color: rgb(234, 0, 255);
+  position: relative;
+  border-radius: 50%;
+  text-align: center;
+
+}
+div#s{
+    animation-name: sAnimation ;
+  animation-duration: 4s;
+  
+}
+div#a{
+    animation-name: aAnimation ;
+  animation-duration: 4s;
+  
+}
+div#g{
+    animation-name: gAnimation ;
+  animation-duration: 5s;
+  
+}
+div#r{
+    animation-name: rAnimation ;
+  animation-duration: 4s;
+  
+}
+
+
+
+div.laters{
+    display: inline-block;
+width:120px;
+height:120px;
+padding:20px;
+background-color:yellow;
+}
+
+@keyframes sAnimation {
+  17%   {background-color:rgb(173, 39, 39); left:100px; top:0px;}
+  34%  {background-color:yellow; left:0px; top:0px;}
+  51%  {background-color:blue; left:0px; top:50px;}
+  68%  {background-color:green; left:100px; top:50px;}
+  85% {background-color:rgb(68, 19, 133); left:100px; top:100px;}
+  100% {background-color:rgb(241, 120, 21); left:0px; top:100px;}
+
+}
+@keyframes aAnimation {
+  20%   {background-color:white; left:0px; top:100px;}
+  40%  {background-color:yellow; left:50px; top:0px;}
+  60%  {background-color:blue; left:100px; top:100px;}
+  80%  {background-color:green; left:75px; top:50px;}
+  100% {background-color:white; left:25px; top:50px;}
+
+}
+@keyframes gAnimation {
+  11%   {background-color:red; left:100px; top:0px;}
+  22%  {background-color:rgb(0, 204, 255); left:0px; top:0px;}
+  33%  {background-color:blue; left:0px; top:50px;}
+  44%  {background-color:green; left:75px; top:50px;}
+
+ 55%   {background-color:red; left:75px; top:25px;}
+  66%  {background-color:rgb(0, 204, 255); left:50px; top:25px;}
+  77%  {background-color:blue; left:100px; top:25px;}
+  88%  {background-color:green; left:75px; top:25px;}
+  100% {background-color:white; left:75px; top:100px;}
+
+}
+@keyframes rAnimation {
+    17%   {background-color:rgb(173, 39, 39); left:0px; top:100px;}
+  34%  {background-color:yellow; left:0px; top:0px;}
+  51%  {background-color:blue; left:100px; top:0px;}
+  68%  {background-color:green; left:100px; top:50px;}
+  85% {background-color:rgb(68, 19, 133); left:0px; top:50px;}
+  100% {background-color:rgb(241, 120, 21); left:100px; top:100px;}
+
+}
+
+        </style>
+    </head>
+    <Body>
+       
+        <div class="laters" >
+        <div id="s" class="circle">
+            S
+        </div>
+        </div>
+        <div class="laters" >
+            <div id="a" class="circle">
+                A
+            </div>
+            </div>
+
+            <div class="laters" >
+                <div id="g" class="circle">
+                    G
+                </div>
+                </div>
+                <div class="laters" >
+                    <div id="a" class="circle">
+                        A
+                    </div>
+                    </div>
+
+                    <div class="laters" >
+                        <div id="r" class="circle">
+                            R
+                        </div>
+                        </div>
+            
+       
+                                        
+
+    </Body>
+</html>
